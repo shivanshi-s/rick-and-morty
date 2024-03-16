@@ -8,7 +8,7 @@ const CardsList = ({characters}) => {
         })
     }
 
-    return <ul>
+    return <ul className="flex flex-wrap gap-4 justify-center mt-4">
         {characters && createCards()}
     </ul>
 }
